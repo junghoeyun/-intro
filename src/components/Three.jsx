@@ -1,11 +1,10 @@
 const Three = () => {
   return (
     <a
-      href=""
+      href="https://stately-chaja-4cb103.netlify.app"
       style={{
         position: "absolute",
         textAlign: "center",
-        height: "",
         top: "387.5vh",
         left: "89vw",
         fontSize: "1.4vw",

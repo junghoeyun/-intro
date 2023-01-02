@@ -1,4 +1,5 @@
 {
+  "homepage": "https://junghoeyun.github.io/-intro/",
   "name": "3d-app",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +23,6 @@
     "react-scripts": "5.0.1",
     "simple-reveal": "^0.6.0",
     "three": "^0.146.0",
-    "homepage": "https://junghoeyun.github.io/-intro/",
     "use-cannon": "^0.5.3",
     "web-vitals": "^2.1.4"
   },
