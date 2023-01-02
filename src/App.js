@@ -8,7 +8,11 @@ import Three from "./components/Three";
 import ThreeImg from "./components/ThreeImg";
 export default function App() {
   return (
-    <Canvas gl={{ antialias: false }} dpr={[1, 1.5]}>
+    <Canvas
+      gl={{ antialias: false }}
+      dpr={[1, 1.5]}
+      basename={process.env.PUBLIC_URL}
+    >
       <Suspense fallback={null}>
         <ScrollControls damping={3} pages={4}>
           <Scroll>
